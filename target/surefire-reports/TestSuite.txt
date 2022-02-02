@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.925 s <<< FAILURE! - in TestSuite
+testcases.SuiteB.ValidateUser.Validate  Time elapsed: 0.016 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [DF] but found [ABC],
+	expected [DEF] but found [ABC]
+	at testcases.SuiteB.ValidateUser.Validate(ValidateUser.java:18)
+
+testcases.SuiteB.ValidateUser.makefaillist  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: making a fail test
+	at testcases.SuiteB.ValidateUser.makefaillist(ValidateUser.java:24)
+

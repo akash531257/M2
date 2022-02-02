@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="8" failed="2" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-01T20:19:50 EST" name="Suite" finished-at="2022-02-01T20:19:50 EST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- Suite -->
+  <suite started-at="2022-02-01T20:19:48 EST" name="SuiteA" finished-at="2022-02-01T20:19:50 EST" duration-ms="1641">
+    <groups>
+    </groups>
+    <test started-at="2022-02-01T20:19:48 EST" name="login test" finished-at="2022-02-01T20:19:48 EST" duration-ms="134">
+      <class name="testcases.SuiteA.LoginTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testcases.SuiteA.LoginTest@38e79ae3]" started-at="2022-02-01T20:19:48 EST" name="initialize" finished-at="2022-02-01T20:19:48 EST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="beforemath()[pri:0, instance:testcases.SuiteA.LoginTest@38e79ae3]" started-at="2022-02-01T20:19:48 EST" name="beforemath" finished-at="2022-02-01T20:19:48 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemath -->
+        <test-method signature="doLogin()[pri:0, instance:testcases.SuiteA.LoginTest@38e79ae3]" started-at="2022-02-01T20:19:48 EST" name="doLogin" finished-at="2022-02-01T20:19:48 EST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="aftermeth()[pri:0, instance:testcases.SuiteA.LoginTest@38e79ae3]" started-at="2022-02-01T20:19:48 EST" name="aftermeth" finished-at="2022-02-01T20:19:48 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermeth -->
+        <test-method is-config="true" signature="beforemath()[pri:0, instance:testcases.SuiteA.LoginTest@38e79ae3]" started-at="2022-02-01T20:19:48 EST" name="beforemath" finished-at="2022-02-01T20:19:48 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemath -->
+        <test-method signature="logout()[pri:0, instance:testcases.SuiteA.LoginTest@38e79ae3]" started-at="2022-02-01T20:19:48 EST" name="logout" finished-at="2022-02-01T20:19:48 EST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="aftermeth()[pri:0, instance:testcases.SuiteA.LoginTest@38e79ae3]" started-at="2022-02-01T20:19:48 EST" name="aftermeth" finished-at="2022-02-01T20:19:48 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermeth -->
+        <test-method is-config="true" signature="quitting()[pri:0, instance:testcases.SuiteA.LoginTest@38e79ae3]" started-at="2022-02-01T20:19:48 EST" name="quitting" finished-at="2022-02-01T20:19:48 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitting -->
+      </class> <!-- testcases.SuiteA.LoginTest -->
+    </test> <!-- login test -->
+    <test started-at="2022-02-01T20:19:49 EST" name="Create user Test" finished-at="2022-02-01T20:19:50 EST" duration-ms="1344">
+      <class name="testcases.SuiteA.CreateUser">
+        <test-method signature="createUser(java.lang.String, java.lang.String)[pri:0, instance:testcases.SuiteA.CreateUser@2f54a33d]" started-at="2022-02-01T20:19:50 EST" name="createUser" data-provider="getData" finished-at="2022-02-01T20:19:50 EST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.Error: Unresolved compilation problems: 
+CELL_TYPE_STRING cannot be resolved or is not a field
+CELL_TYPE_NUMERIC cannot be resolved or is not a field
+CELL_TYPE_FORMULA cannot be resolved or is not a field
+CELL_TYPE_BLANK cannot be resolved or is not a field
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.Error: Unresolved compilation problems: 
+CELL_TYPE_STRING cannot be resolved or is not a field
+CELL_TYPE_NUMERIC cannot be resolved or is not a field
+CELL_TYPE_FORMULA cannot be resolved or is not a field
+CELL_TYPE_BLANK cannot be resolved or is not a field
+
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:50)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:146)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:820)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:762)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:60)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:39)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:771)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1175)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.Error: Unresolved compilation problems: 
+CELL_TYPE_STRING cannot be resolved or is not a field
+CELL_TYPE_NUMERIC cannot be resolved or is not a field
+CELL_TYPE_FORMULA cannot be resolved or is not a field
+CELL_TYPE_BLANK cannot be resolved or is not a field
+
+at dataprovider.Xls_Reader.getCellData(Xls_Reader.java:141)
+at dataprovider.Testdataprovider.getData(Testdataprovider.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:77)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:46)
+... 26 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="deleteUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.SuiteA.CreateUser@2f54a33d]" started-at="2022-02-01T20:19:50 EST" name="deleteUser" data-provider="getData" finished-at="2022-02-01T20:19:50 EST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[duser1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dpass1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dabc@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[dindia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method signature="deleteUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.SuiteA.CreateUser@2f54a33d]" started-at="2022-02-01T20:19:50 EST" name="deleteUser" data-provider="getData" finished-at="2022-02-01T20:19:50 EST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[duser2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dpass2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dabcdef@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[dcanada]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method signature="deleteUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.SuiteA.CreateUser@2f54a33d]" started-at="2022-02-01T20:19:50 EST" name="deleteUser" data-provider="getData" finished-at="2022-02-01T20:19:50 EST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[duser3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dpass3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dabcadasd@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[dusa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- testcases.SuiteA.CreateUser -->
+    </test> <!-- Create user Test -->
+  </suite> <!-- SuiteA -->
+  <suite started-at="2022-02-01T20:19:50 EST" name="SuiteB" finished-at="2022-02-01T20:19:50 EST" duration-ms="126">
+    <groups>
+    </groups>
+    <test started-at="2022-02-01T20:19:50 EST" name="Register Test" finished-at="2022-02-01T20:19:50 EST" duration-ms="59">
+      <class name="testcases.SuiteB.ValidateUser">
+        <test-method signature="Validate()[pri:0, instance:testcases.SuiteB.ValidateUser@45ca843]" started-at="2022-02-01T20:19:50 EST" name="Validate" finished-at="2022-02-01T20:19:50 EST" duration-ms="12" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [DF] but found [ABC],
+expected [DEF] but found [ABC]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [DF] but found [ABC],
+expected [DEF] but found [ABC]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at testcases.SuiteB.ValidateUser.Validate(ValidateUser.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1175)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate -->
+        <test-method signature="makefaillist()[pri:0, instance:testcases.SuiteB.ValidateUser@45ca843]" started-at="2022-02-01T20:19:50 EST" name="makefaillist" finished-at="2022-02-01T20:19:50 EST" duration-ms="4" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[making a fail test]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: making a fail test
+at org.testng.Assert.fail(Assert.java:97)
+at testcases.SuiteB.ValidateUser.makefaillist(ValidateUser.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1175)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makefaillist -->
+      </class> <!-- testcases.SuiteB.ValidateUser -->
+    </test> <!-- Register Test -->
+    <test started-at="2022-02-01T20:19:50 EST" name="SearchandBuy Test" finished-at="2022-02-01T20:19:50 EST" duration-ms="23">
+      <class name="testcases.SuiteB.SearchAndBuyPhone">
+        <test-method signature="search(org.testng.ITestContext)[pri:1, instance:testcases.SuiteB.SearchAndBuyPhone@3c947bc5]" started-at="2022-02-01T20:19:50 EST" name="search" finished-at="2022-02-01T20:19:50 EST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@19648c40]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="selectPhone(org.testng.ITestContext)[pri:2, instance:testcases.SuiteB.SearchAndBuyPhone@3c947bc5]" started-at="2022-02-01T20:19:50 EST" name="selectPhone" finished-at="2022-02-01T20:19:50 EST" depends-on-methods="testcases.SuiteB.SearchAndBuyPhone.search" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@19648c40]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectPhone -->
+        <test-method signature="checkout()[pri:3, instance:testcases.SuiteB.SearchAndBuyPhone@3c947bc5]" started-at="2022-02-01T20:19:50 EST" name="checkout" finished-at="2022-02-01T20:19:50 EST" depends-on-methods="testcases.SuiteB.SearchAndBuyPhone.search, testcases.SuiteB.SearchAndBuyPhone.selectPhone" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+      </class> <!-- testcases.SuiteB.SearchAndBuyPhone -->
+    </test> <!-- SearchandBuy Test -->
+  </suite> <!-- SuiteB -->
+</testng-results>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1.925" tests="13" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\JAY SHRI KRISHNA\Desktop\Testing Class\Projectfolder\Selenium_Workspace\TestNGExampleMaven\target\test-classes;C:\Users\JAY SHRI KRISHNA\Desktop\Testing Class\Projectfolder\Selenium_Workspace\TestNGExampleMaven\target\classes;C:\Users\JAY SHRI KRISHNA\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\JAY SHRI KRISHNA\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\JAY SHRI KRISHNA\Desktop\Testing Class\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\JAY SHRI KRISHNA\AppData\Local\Temp\surefire10415154547310987457\surefirebooter602038468455581162.jar C:\Users\JAY SHRI KRISHNA\AppData\Local\Temp\surefire10415154547310987457 2021-12-26T22-31-14_951-jvmRun1 surefire1338405114187209520tmp surefire_011742444376484109802tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\JAY SHRI KRISHNA\Desktop\Testing Class\Projectfolder\Selenium_Workspace\TestNGExampleMaven\target\test-classes;C:\Users\JAY SHRI KRISHNA\Desktop\Testing Class\Projectfolder\Selenium_Workspace\TestNGExampleMaven\target\classes;C:\Users\JAY SHRI KRISHNA\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\JAY SHRI KRISHNA\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\JAY SHRI KRISHNA"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.home" value="C:\Users\JAY SHRI KRISHNA\Desktop\Testing Class\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\JAY SHRI KRISHNA\Desktop\Testing Class\Projectfolder\Selenium_Workspace\TestNGExampleMaven"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\JAY SHRI KRISHNA\AppData\Local\Temp\surefire10415154547310987457\surefirebooter602038468455581162.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="15.0.1+9-18"/>
+    <property name="user.name" value="JAY SHRI KRISHNA"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.3"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\JAY SHRI KRISHNA\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\JAYSHR~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="15.0.1"/>
+    <property name="user.dir" value="C:\Users\JAY SHRI KRISHNA\Desktop\Testing Class\Projectfolder\Selenium_Workspace\TestNGExampleMaven"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Users\JAY SHRI KRISHNA\Desktop\Testing Class\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/JAY SHRI KRISHNA/Desktop/Testing Class/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507/jre/bin/server;C:/Users/JAY SHRI KRISHNA/Desktop/Testing Class/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507/jre/bin;C:\Program Files\Java\jdk1.8.0_102\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\Program Files\Git\cmd;C:\Users\JAY SHRI KRISHNA\Desktop\Testing Class\Setup files\apache-ant-1.10.12-bin\apache-ant-1.10.12\bin;C:\Program Files\Git;C:\Program Files\php;C:\Windows\System32;C:\Users\JAY SHRI KRISHNA\AppData\Local\GitHubDesktop\bin;C:\Users\JAY SHRI KRISHNA\Desktop\Testing Class\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="15.0.1+9-18"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="doLogin" classname="testcases.SuiteA.LoginTest" time="0.002">
+    <system-out><![CDATA[[TestNG] [WARN] Ignoring duplicate listener : listener.myListener
+[TestNG] [WARN] Ignoring duplicate listener : listener.myListener
+--------@beforetest---------
+------@before metho -------
+Start
+End
+]]></system-out>
+  </testcase>
+  <testcase name="logout" classname="testcases.SuiteA.LoginTest" time="0.001">
+    <system-out><![CDATA[---------@after Method--------
+------@before metho -------
+Logging Out
+]]></system-out>
+  </testcase>
+  <testcase name="createUser[user1, pass1, abc@gmail.com, india](1)" classname="testcases.SuiteA.CreateUser" time="0.002">
+    <system-out><![CDATA[---------@after Method--------
+---------@aftertest---------
+Method / Test  createUser
+user1------pass1-----abc@gmail.com ----- india
+]]></system-out>
+  </testcase>
+  <testcase name="createUser[user2, pass2, abcdef@gmail.com, canada](2)" classname="testcases.SuiteA.CreateUser" time="0.002">
+    <system-out><![CDATA[user2------pass2-----abcdef@gmail.com ----- canada
+]]></system-out>
+  </testcase>
+  <testcase name="createUser[user3, pass3, abcadasd@gmail.com, usa](3)" classname="testcases.SuiteA.CreateUser" time="0.002">
+    <system-out><![CDATA[user3------pass3-----abcadasd@gmail.com ----- usa
+]]></system-out>
+  </testcase>
+  <testcase name="deleteUser[duser1, dpass1, dabc@gmail.com, dindia](1)" classname="testcases.SuiteA.CreateUser" time="0.001">
+    <system-out><![CDATA[Method / Test  deleteUser
+duser1------dpass1-----dabc@gmail.com ----- dindia
+]]></system-out>
+  </testcase>
+  <testcase name="deleteUser[duser2, dpass2, dabcdef@gmail.com, dcanada](2)" classname="testcases.SuiteA.CreateUser" time="0.001">
+    <system-out><![CDATA[duser2------dpass2-----dabcdef@gmail.com ----- dcanada
+]]></system-out>
+  </testcase>
+  <testcase name="deleteUser[duser3, dpass3, dabcadasd@gmail.com, dusa](3)" classname="testcases.SuiteA.CreateUser" time="0.001">
+    <system-out><![CDATA[duser3------dpass3-----dabcadasd@gmail.com ----- dusa
+]]></system-out>
+  </testcase>
+  <testcase name="Validate" classname="testcases.SuiteB.ValidateUser" time="0.016">
+    <failure message="The following asserts failed:&#10;	expected [DF] but found [ABC],&#10;	expected [DEF] but found [ABC]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+The following asserts failed:
+	expected [DF] but found [ABC],
+	expected [DEF] but found [ABC]
+	at testcases.SuiteB.ValidateUser.Validate(ValidateUser.java:18)
+]]></failure>
+  </testcase>
+  <testcase name="makefaillist" classname="testcases.SuiteB.ValidateUser" time="0">
+    <failure message="making a fail test" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: making a fail test
+	at testcases.SuiteB.ValidateUser.makefaillist(ValidateUser.java:24)
+]]></failure>
+    <system-out><![CDATA[Test Failed===AKAASH
+Failed Methods :  Validate
+2
+a :   The following asserts failed:
+	expected [DF] but found [ABC],
+	expected [DEF] but found [ABC]
+]]></system-out>
+  </testcase>
+  <testcase name="search[org.testng.TestRunner@60bd273d](1)" classname="testcases.SuiteB.SearchAndBuyPhone" time="0">
+    <system-out><![CDATA[Test Failed===AKAASH
+Failed Methods :  makefaillist
+2
+a :   making a fail test
+Search a Phone
+]]></system-out>
+  </testcase>
+  <testcase name="selectPhone[org.testng.TestRunner@60bd273d](1)" classname="testcases.SuiteB.SearchAndBuyPhone" time="0.001">
+    <system-out><![CDATA[Selecting Phone
+IPHONE14
+]]></system-out>
+  </testcase>
+  <testcase name="checkout" classname="testcases.SuiteB.SearchAndBuyPhone" time="0.001">
+    <system-out><![CDATA[Chckout
+]]></system-out>
+  </testcase>
+</testsuite>
